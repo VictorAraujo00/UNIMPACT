@@ -5,9 +5,17 @@
 	color: white;
 }
 
+.btn-roxo-e:hover{
+	background-color: #A373D1;
+}
+
 .btn-roxo-c{
 	background-color: #A373D1;
 	color: white;
+}
+
+.btn-roxo-c:hover{
+	background-color: #8453B3;
 }
 
 /*Espaçamento entre as seções */
@@ -28,12 +36,12 @@ h4, p{
 	margin-bottom: 55px;
 }
 
-.footer_unimpact{
-	width: 100%;
-}
-
 #demanda{
 
 	margin-bottom: 60px;
 
+}
+
+#footer_unicap{
+	background-color: #690013;
 }
