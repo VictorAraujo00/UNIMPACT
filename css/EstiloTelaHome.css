@@ -1,8 +1,39 @@
-.btn-cadastrar{
+/* Formatação dos botões cadastrar e entrar */
+.btn-roxo-e{
 	
 	background-color: #8453B3;
+	color: white;
 }
 
-.btn-entrar{
+.btn-roxo-c{
 	background-color: #A373D1;
+	color: white;
+}
+
+/*Espaçamento entre as seções */
+.caixa{
+	padding: 60px 0px;
+}
+
+/*Formatação da seção sobre, impactar, operacionalização */
+h4, p{
+	color: #8453B3;
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+#opera h4{
+	margin-bottom: 55px;
+}
+
+.footer_unimpact{
+	width: 100%;
+}
+
+#demanda{
+
+	margin-bottom: 60px;
+
 }
