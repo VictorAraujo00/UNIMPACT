@@ -40,6 +40,10 @@ h6{
 	font-weight: bold;
 }
 
+.sublinhado{
+	text-decoration: underline;
+}
+
 #opera h4{
 	margin-bottom: 55px;
 }
@@ -56,4 +60,15 @@ h6{
 
 .btn-voltar{
 	padding-left: 60px;
+}
+
+.caixa-checkbox{
+	margin: 10px 0;
+}
+
+.caixa-subforms{
+	margin-top: 10px;
+}
+.vermelho{
+	color: #A71616;
 }

@@ -89,22 +89,22 @@
 
 							<div class="col-md-6">
 
-								<label for="nome">NOME COMPLETO</label>
-								<input type="text" id="nome" class="form-control">
+								<label for="nome">NOME COMPLETO<span class="vermelho">*</span></label>
+								<input type="text" id="nome" class="form-control" required>
 
 							</div>
 
 							<div class="col-md">
 								
-								<label for="cpf">CPF</label>
-								<input type="text" id="cpf" class="form-control">
+								<label for="cpf">CPF<span class="vermelho">*</span></label>
+								<input type="text" id="cpf" class="form-control" required>
 
 							</div>
 
 							<div class="col-md">
 								
-								<label for="rg">RG</label>
-								<input type="text" id="rg" class="form-control">
+								<label for="rg">RG<span class="vermelho">*</span></label>
+								<input type="text" id="rg" class="form-control" required>
 
 
 							</div>
@@ -112,12 +112,12 @@
 
 						</div>
 
-						<div class="form-row">
+						<div class="form-row caixa-subforms">
 
 							<div class="col-md">
 								
-								<label for="telefone1">TELEFONE 1</label>
-								<input type="text" id="telefone1" class="form-control">
+								<label for="telefone1">TELEFONE 1<span class="vermelho">*</span></label>
+								<input type="text" id="telefone1" class="form-control" required>
 
 
 							</div>
@@ -139,36 +139,133 @@
 
 							<div class="col-md">
 
-								<label for="cep">CEP</label>
-								<input type="text" id="cep" class="form-control">
+								<label for="cep">CEP<span class="vermelho">*</span></label>
+								<input type="text" id="cep" class="form-control" required>
 								
 							</div>
 
 							<div class="col-md-6">
 
-								<label for="rua">RUA</label>
-								<input type="text" id="rua" class="form-control">
+								<label for="rua">RUA<span class="vermelho">*</span></label>
+								<input type="text" id="rua" class="form-control" required>
 								
 
 							</div>
 
 							<div class="col-md">
 								
-								<label for="estado">ESTADO</label>
-								<select id="estado" class="form-control">
+								<label for="estado">ESTADO<span class="vermelho">*</span></label>
+								<select id="estado" class="form-control" required>
 									
-									<option selected>AC</option>
+									<option selected></option>
+									<option>AC</option>
+									<option>AL</option>
+									<option>AP</option>
+									<option>AM</option>
+									<option>BA</option>
+									<option>CE</option>
+									<option>ES</option>
+									<option>GO</option>
+									<option>MA</option>
+									<option>MT</option>
+									<option>MS</option>
+									<option>MG</option>
+									<option>PA</option>
+									<option>PB</option>
+									<option>PR</option>
+									<option>PE</option>
+									<option>PI</option>
+									<option>RJ</option>
+									<option>RN</option>
+									<option>RS</option>
+									<option>RO</option>
+									<option>RR</option>
+									<option>SC</option>
+									<option>SP</option>
+									<option>SE</option>
+									<option>TO</option>
+									<option>DF</option>
 
 
 								</select>
 
+							</div>
+
+						</div>
+
+						<div class="form-row caixa-subforms">
+
+							<div class="col-md">
+
+								<label for="bairro">BAIRRO<span class="vermelho">*</span></label>
+								<input type="text" id="bairro" class="form-control" required>
+
+							</div>
+
+							<div class="col-md-2">
+								
+								<label for="numero">NÚMERO<span class="vermelho">*</span></label>
+								<input type="number" id="numero" class="form-control" required>
+
+							</div>
+
+							<div class="col-md-6">
+								
+								<label for="complemento">COMPLEMENTO</label>
+								<input type="text" id="complemento" class="form-control">
 
 
 							</div>
-						
 
 
 						</div>
+
+						<h6>INFORMAÇÕES DO LOGIN</h6>
+
+						<div class="form-row">
+							
+
+							<div class="col-md-6">
+								
+								<label for="email">EMAIL<span class="vermelho">*</span></label>
+								<input type="email" id="email" class="form-control" required>
+
+
+							</div>
+
+							<div class="col-md">
+								
+								<label for="senha">SENHA<span class="vermelho">*</span></label>
+								<input type="password" id="senha" class="form-control" required>
+
+							</div>
+
+							<div class="col-md">
+								
+								<label for="rsenha">REPITA A SENHA<span class="vermelho">*</span></label>
+								<input type="password" id="rsenha" class="form-control" required>
+
+
+							</div>
+
+
+
+						</div>
+
+						<div class="form-check caixa-checkbox">
+							
+							<input type="checkbox" class="form-check-input" id="termo" required>
+							<label class="form-check-label" for="termo">LI E CONCORDO COM OS <span class="negrito sublinhado">TERMOS</span></label>
+
+
+						</div>
+
+						
+							
+						<button type="submit" class="btn btn-roxo-c">ENVIAR</button>
+
+
+						
 
 
 					</form>
