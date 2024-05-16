@@ -23,9 +23,17 @@
 	padding: 60px 0px;
 }
 
+.caixa-forms{
+	margin-top: 40px;
+}
+
 /*Formatação da seção sobre, impactar, operacionalização */
 h4, p{
 	color: #8453B3;
+}
+
+h6{
+	margin-top: 25px;
 }
 
 .negrito{
@@ -44,4 +52,8 @@ h4, p{
 
 #footer_unicap{
 	background-color: #690013;
+}
+
+.btn-voltar{
+	padding-left: 60px;
 }
